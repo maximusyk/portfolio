@@ -1,0 +1,148 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .profile-card {
+    max-width: 700px;
+  }
+  .user_name {
+    font-size: 1.3rem;
+  }
+  .user-description {
+    font-size: 0.7rem;
+  }
+  .user-description strong {
+    font-size: 0.8rem;
+  }
+  .content.home li {
+    font-size: 1.7em;
+  }
+  /* ========================== */
+
+  .Grid {
+    width: 35rem;
+  }
+
+  .Card {
+    flex: 0 1 10rem;
+  }
+  .Card-image,
+  .Card-shadow,
+  .Card-thumb {
+    width: 10rem;
+    height: 5rem;
+  }
+
+  /* ========================== */
+
+  .wrap-contact {
+    width: 350px;
+    background: transparent;
+    padding: 50px 0px 160px 0px;
+  }
+  .input {
+    font-size: 16px;
+  }
+
+  input.input {
+    height: 42px;
+  }
+  textarea.input {
+    height: 149px;
+  }
+  .contact-form-btn {
+    min-width: 130px;
+    height: 42px;
+    font-size: 14px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 990px) {
+  input[type="radio"] {
+    width: 15px;
+  }
+  .profile-card {
+    max-width: 500px;
+    max-height: 80vh;
+    height: 100%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+  }
+  .profile-wrap {
+    flex-direction: column;
+  }
+  .profile-img {
+    max-width: 50%;
+  }
+  h1 {
+    text-align: center;
+  }
+  /* ========================== */
+
+  /* .Grid {
+    width: 35rem;
+  } */
+
+  /* ========================== */
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .profile-img {
+    max-width: 60%;
+  }
+  .profile-img img {
+    border-width: 9px;
+  }
+  .profile-card {
+    max-width: 300px;
+    max-height: 70vh;
+  }
+  .Grid {
+    overflow: scroll;
+    width: 15rem;
+  }
+  .Grid-row {
+    flex-direction: column;
+    max-width: 10rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Card {
+    margin-bottom: 1.5rem;
+  }
+
+  .wrap-contact {
+    width: 250px;
+  }
+  .input {
+    font-size: 14px;
+  }
+
+  input.input {
+    height: 32px;
+  }
+  textarea.input {
+    height: 139px;
+  }
+  .contact-form-btn {
+    min-width: 120px;
+    height: 32px;
+    font-size: 12px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  input[type="radio"] {
+    width: 16px;
+  }
+  .profile-img {
+    max-width: 100%;
+  }
+  .profile-img img {
+    border-width: 9px;
+  }
+  .profile-card {
+    max-width: 150px;
+    max-height: 70vh;
+  }
+}
