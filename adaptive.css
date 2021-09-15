@@ -61,6 +61,8 @@
     width: 15px;
   }
   .profile-card {
+    position: absolute;
+    left: 50%;
     max-width: 500px;
     max-height: 80vh;
     height: 100%;
